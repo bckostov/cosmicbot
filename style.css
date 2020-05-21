@@ -1,121 +1,151 @@
-@import 'https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700';
+@import 'https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800';
 
 
 body {
-  background-color: EAE6E4;
-  font-family: 'Raleway', sans-serif;
-}
-
-.navigation ul {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  background: #F7F7F7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+}
+
+/** Header styles **/
+.header {
+  background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  height: 400px;
+  background-position: center center;
+}
+
+.roasting {
+  margin: 40px auto;
+  padding: 20px 30px 40px 30px;
+  background-color: #FFFFFFFFF;
+  overflow: auto;
+  width: 75%;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.roasting p {
+  color: #938E89;
   text-align: center;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.navigation li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
+.spectrum div {
+  font: inherit;
+  padding: 0 20px;
+  color: #FFFFFF;
+  overflow: auto;
+  opacity: 0.9;
 }
 
-.navigation  li.logo {
-  color: black;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 4px;
+.spectrum p {
+  color: #FFFFFF;
+  text-align: left;
 }
 
-#banner {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
-  background-size: cover;
-  background-position: bottom center;
-  height: 700px;
-  width: 100%;
+/* Roast types */
+.green {
+  background-color: #9EB599;
 }
 
-#banner .content h1 {
-  border: 3px solid white;
-  position: relative;
-  top: 50px;
-  width: 400px;
-  margin: 0 auto;
+.light {
+  background-color: #683C2C;
 }
 
-#main {
-  margin: 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 400px;
-  height: 1000px;
-  overflow: scroll;
+.city {
+  background-color: #4C352D;
 }
 
+.vienna {
+  background-color: #352926;
+}
+
+.italian {
+  background-color: #141212;
+}
+
+/* Typography */
 h1 {
-  color: white;
-  font-size: 42px;
-  font-weight: 600;
+  color: MidnightBlue;
+  background-color: Aqua;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
   text-align: center;
+  top: 20%;
 }
 
 h2 {
-  border: 1px dotted red;
-  color: red;
-  font-size: 14px;
-  line-height: 48px;
-  padding: 20px 30px;
-  margin: 30px 20px;
-  text-align: center;
+  color: #E4BB97;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 h3 {
-  color: red;
-  font-size: 26px;
+  color: #41292C;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
   font-weight: 700;
-  padding: 20px 10px;
+  line-height: .2em;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: .2em;
+  font-weight: 300;
+}
+
+/* Page elements */
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 75%;
+}
+
+li {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
 }
 
 p {
-  color: grey;
-  font-size: 16px;
-  line-height: 48px;
-  margin-top: 60px;
-  padding: 10px 20px;
-}
-
-.pull-quote {
-  margin: 0 auto;
-  width: 400px;
-}
-
-.byline {
-  border-bottom: 1px solid LightGrey;
-  border-top: 1px solid LightGrey;
-  color: DarkGrey;
-  font-size: 14px;
+  color: black;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
   font-weight: 200;
 }
 
-.share {
-  border: 1px solid LightGrey;
-  padding: 40px 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-.share a {
-  background: red;
-  border: 1px solid red;
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  margin: 10px;
-  padding: 14px;
+a {
+  color: #214E34;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
   text-decoration: none;
-}
-
-.share a:hover {
-  background: white;
-  border: 1px solid red;
-  color: red;
+  letter-spacing: 2px;
 }
