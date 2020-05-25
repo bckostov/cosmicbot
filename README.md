@@ -1,2 +1,2 @@
 # cosmicbot
-Cosmic Discord Bot Website
+Cosmic Discord Bot Website!
