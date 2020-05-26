@@ -16,79 +16,106 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/cosmicpicture2.png" alt="" /></span>
-						<h1>Cosmic</h1>
-						<p>Customize your Discord Server with ease!<br />
-						<!--built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>-->
-					</header>
+				<header id="header" class="alt">
+					<span class="logo"><img src="images/cosmicpicture2.png" alt="" /></span>
+					<h1>Cosmic</h1>
+					<p>Customize your Discord Server with ease!</p>
+				</header>
 
 				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Add to Discord</a></li>
-							<li><a href="#first">User and Server Info Commands</a></li>
-							<li><a href="#second">Music Player</a></li>
-							<li><a href="#cta">Custom Commands</a></li>
-						</ul>
-					</nav>
+				<nav id="nav">
+					<ul>
+						<li><a href="#intro" class="active">Add to Discord</a></li>
+						<li><a href="#first">User and Server Info Commands</a></li>
+						<li><a href="#second">Music Player</a></li>
+						<li><a href="#cta">Custom Commands</a></li>
+					</ul>
+				</nav>
 
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Click the button below to add Cosmic to your Discord server!</h2>
-										</header>
-										<!--<p>Click the button below to add Cosmic to your Discord server!</p>-->
-										<ul class="actions">
-											<li><a href="https://discord.com/api/oauth2/authorize?client_id=424680487638925312&permissions=8&scope=bot" class="button" target="_blank" onclick="window.open">Add to Discord</a></li>
-										</ul>
-									</div>
-									<!--<span class="image"><img src="images/pic01.jpg" alt="" /></span>-->
-								</div>
+							<section id="intro" class="main special">
+								<header class="major">
+									<h2>Click the button below to add Cosmic to your Discord server!</h2>
+								</header>
+								<!--<p>Click the button below to add Cosmic to your Discord server!</p>-->
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://discord.com/api/oauth2/authorize?client_id=424680487638925312&permissions=8&scope=bot" class="button primary" target="_blank">Add to Discord</a></li>
+									</ul>
+								</footer>
 							</section>
 
 						<!-- First Section -->
 							<section id="first" class="main special">
 								<header class="major">
 									<h2>Easily view user or server information</h2>
+									<p>Cosmic provides easy access to information about a user or server.</p>
 								</header>
 								<ul class="features">
 									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3>?userinfo</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>?userinfo</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<span class="image fit"><img src="images/userinfo.png" alt="" /></span>
+										<p><code>?userinfo</code></p>
+										<p>Preview information about a user such as their status, game they are playing, roles, join date, account creation and much more.</p>
 									</li>
 								</ul>
-								<footer class="major">
+								<ul class="features">
+									<li>
+										<span class="image fit"><img src="images/serverinfo.png" alt="" /></span>
+										<p><code>?serverinfo</code></p>
+										<p>Displays information about the server such as it's region, owner, number of roles, role list, and many more.</p>
+									</li>
+								</ul>
+								<!--<footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer>-->
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Play music on demand</h2>
+									<p>Cosmic delivers high quality music from sources such as Youtube.</p>
 								</header>
-								<ul class="statistics">
+								<ul class="features">
+									<li>
+										<span class="image fit"><img src="images/play.png" alt="" /></span>
+										<p><code>?play</code></p>
+										<p>Cosmic will join the channel your are currently in an begin playing the music requested.</p>
+									</li>
+								</ul>
+								<ul class="features">
+									<li>
+										<span class="image fit"><img src="images/serverinfo.png" alt="" /></span>
+										<p><code>?stop</code></p>
+										<p>Stop the music or video that is currently playing. You can continue the song by executing the<code>?resume</code> command.</p>
+									</li>
+								</ul>
+								<ul class="features">
+									<li>
+										<span class="image fit"><img src="images/skip.png" alt="" /></span>
+										<p><code>?skip</code></p>
+										<p>Don't like the song that is currently playing? You can skip it with this simple command.</p>
+									</li>
+								</ul>
+								<ul class="features">
+									<li>
+										<span class="image fit"><img src="images/volume.png" alt="" /></span>
+										<p><code>?volume</code></p>
+										<p>Music too loud for you? Simply change the volume by selecting a number from <code>0 - 100</code> to set it to that specified volume.</p>
+									</li>
+								</ul>
+								<!--<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>-->
+							</section>
+								<!--<ul class="statistics">
 									<li class="style1">
 										<span class="icon solid fa-code-branch"></span>
 										<strong>5,120</strong> Etiam
@@ -109,13 +136,13 @@
 										<span class="icon fa-gem"></span>
 										<strong>1,024</strong> Nullam
 									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
+								</ul>-->
+								<!--<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>-->
+								<!--<footer class="major">
 									<ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer>-->
 							</section>
 
 						<!-- Get Started -->
@@ -162,7 +189,7 @@
 								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
 							</ul>
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; GreenPine. Built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
